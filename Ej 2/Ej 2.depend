@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1761011417 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 2\dueño.cpp
+
+1743445502 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 2\main.cpp
+	<iostream>
+
+1760573300 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 2\string.cpp
+	"String.h"
+
+1760489193 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 2\string.h
+	<string.h>
+	<iostream>
+
