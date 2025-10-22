@@ -32,10 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Dueño.cpp" />
-		<Unit filename="Dueño.h" />
 		<Unit filename="String.cpp" />
 		<Unit filename="String.h" />
+		<Unit filename="duenio.cpp" />
+		<Unit filename="duenio.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="mascota.cpp" />
 		<Unit filename="mascota.h" />

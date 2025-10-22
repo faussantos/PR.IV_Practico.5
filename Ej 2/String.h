@@ -4,6 +4,7 @@
 #include <iostream>
 
 const int MAX = 80;
+
 class String {
 
 private:
@@ -14,10 +15,12 @@ public:
     String (char *);
     String (const String &);
     ~String ();
-    bool operator== (const String &);
     String operator= (const String &);
-    bool operator< (const String &);
-    String operator+(const String &);
+    bool operator== (String);
+    bool operator< (String);
+    String operator+(String);
+    void scan();
+    void print();
 
 };
 

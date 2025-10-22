@@ -9,7 +9,9 @@ private:
     float peso;
 
 public:
+    mascota();
     mascota (int, String, float);
+    ~mascota();
     int getNumero();
     String getApodo();
     float getPeso();

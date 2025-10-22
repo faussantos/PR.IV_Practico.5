@@ -1,4 +1,8 @@
 #include "String.h"
+#include <string.h>
+#include <iostream>
+
+using namespace std;
 
 String :: String ()
 {
@@ -27,14 +31,14 @@ String :: ~String ()
 {
     delete [] cadena;
 }
-bool String :: operator== (const String &otro)
+bool String :: operator== (String otro)
 {
     return (strcmp(cadena, otro.cadena) == 0);
 }
 
 String String :: operator= (const String &otro)
 {
-    if (this != &otro)
+    if (this != & otro)
     {
         delete [] cadena;
         int largo = strlen(otro.cadena);
@@ -44,12 +48,12 @@ String String :: operator= (const String &otro)
     return (*this);
 }
 
-bool String :: operator< (const String &otro)
+bool String :: operator< (String otro)
 {
     return (strcmp(cadena,otro.cadena) < 0);
 }
 
-String String :: operator+(const String &otro)
+String String :: operator+(String otro)
 {
     int largo = strlen(cadena) + strlen(otro.cadena);
     String concatenados;
@@ -58,4 +62,25 @@ String String :: operator+(const String &otro)
     strcpy(concatenados.cadena, cadena);
     strcat(concatenados.cadena,otro.cadena);
     return (concatenados);
+}
+
+void String :: scan()
+{
+    char aux [MAX];
+    char c = cin.get();
+    int i = 0;
+    while(i<MAX && c!='\n')
+    {
+        aux[i] = c;
+        c = cin.get();
+        i++;
+    }
+    aux[i] = '\0';
+    cadena = new char[i];
+    strcpy(cadena,aux);
+
+}
+void String :: print()
+{
+    cout << cadena;
 }
