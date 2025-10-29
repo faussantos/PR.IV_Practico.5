@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1761688557 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\duenio.cpp
+	"duenio.h"
+
+1761688551 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\duenio.h
+	"mascota.h"
+
+1761089371 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\mascota.h
+	"string.h"
+
+1761088694 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\string.h
+	<string.h>
+	<iostream>
+
+1761691721 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\iterador.cpp
+	"iterador.h"
+
+1761691709 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\iterador.h
+	"duenio.h"
+
+1743445502 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\main.cpp
+	<iostream>
+
+1761686462 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\mascota.cpp
+	"mascota.h"
+
+1761088953 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\string.cpp
+	"String.h"
+	<string.h>
+	<iostream>
+
+1761696534 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\mascotas.cpp
+	"mascotas.h"
+
+1761694705 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 4\ej 4\mascotas.h
+	"mascota.h"
+
