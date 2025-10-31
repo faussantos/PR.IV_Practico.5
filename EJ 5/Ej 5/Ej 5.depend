@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1761688557 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\duenio.cpp
+	"duenio.h"
+
+1761688551 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\duenio.h
+	"mascota.h"
+
+1761873912 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\mascota.h
+	"string.h"
+
+1761088694 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\string.h
+	<string.h>
+	<iostream>
+
+1761699848 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\duenios.cpp
+	"duenios.h"
+
+1761697921 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\duenios.h
+	"duenio.h"
+	"iterador.h"
+
+1761691709 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\iterador.h
+	"duenio.h"
+
+1761691721 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\iterador.cpp
+	"iterador.h"
+
+1761875120 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\main.cpp
+	<iostream>
+	"common/fachada.h"
+
+1761686462 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\mascota.cpp
+	"mascota.h"
+
+1761696534 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\mascotas.cpp
+	"mascotas.h"
+
+1761694705 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\mascotas.h
+	"mascota.h"
+
+1761088953 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\string.cpp
+	"String.h"
+	<string.h>
+	<iostream>
+
+1761870335 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\fachada.h
+	"tipoError.h"
+	"duenios.h"
+	"mascotas.h"
+
+1761872534 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\tipoerror.h
+
+1761873639 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\fachada.cpp
+	"fachada.h"
+
+1761688557 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\duenio.cpp
+	"duenio.h"
+
+1761688551 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\duenio.h
+	"mascota.h"
+
+1761873912 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\mascota.h
+	"string.h"
+
+1761088694 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\string.h
+	<string.h>
+	<iostream>
+
+1761699848 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\duenios.cpp
+	"duenios.h"
+
+1761697921 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\duenios.h
+	"duenio.h"
+	"iterador.h"
+
+1761691709 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\iterador.h
+	"duenio.h"
+
+1761875885 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\fachada.cpp
+	"fachada.h"
+
+1761875794 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\fachada.h
+	"tipoError.h"
+	"duenios.h"
+	"mascotas.h"
+
+1761872534 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\tipoerror.h
+
+1761694705 c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\mascotas.h
+	"mascota.h"
+
+1761691721 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\iterador.cpp
+	"iterador.h"
+
+1761686462 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\mascota.cpp
+	"mascota.h"
+
+1761696534 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\mascotas.cpp
+	"mascotas.h"
+
+1761088953 source:c:\users\fauss\onedrive\escritorio\code ude\pr 4\practico 5\ej 5\ej 5\common\string.cpp
+	"String.h"
+	<string.h>
+	<iostream>
+
