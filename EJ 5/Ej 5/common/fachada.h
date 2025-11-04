@@ -7,8 +7,8 @@
 class CapaLogica
 {
 private:
-    mascotas* Mascotas;
-    duenios* Duenios;
+    mascotas Mascotas;
+    duenios Duenios;
 
 public:
     CapaLogica();

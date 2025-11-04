@@ -1,39 +1,33 @@
 #include "fachada.h"
-CapaLogica :: CapaLogica()
+CapaLogica :: CapaLogica(): Mascotas(), Duenios()
 {
-    Duenios = new duenios();
-    Mascotas = new mascotas();
 }
 
-CapaLogica :: ~CapaLogica()
-{
-    delete Duenios;
-    delete Mascotas;
-}
 void CapaLogica :: altaDuenio (duenio * d, tipoError &error)
 {
-    if(Duenios->member(d->getCedula()))
+    error = ok;
+    if(Duenios.member(d->getCedula()))
         error = existeDuenio;
     else
     {
-        Duenios->Insert(d);
-        error = ok;
+        Duenios.Insert(d);
     }
 }
 
 void CapaLogica :: asignarMascota (long int ci, mascota * masc, tipoError &error)
 {
-    if(!Duenios->member(ci))
+    error = ok;
+    if(!Duenios.member(ci))
         error = noExisteDuenio;
     else
     {
-        duenio* d = Duenios->Find(ci);
+        duenio* d = Duenios.Find(ci);
         if(d->tieneMascota())
             error = tieneMascota;
         else
         {
+            Mascotas.insertar(masc);
             d->setMascota(masc);
-            error = ok;
         }
     }
 
@@ -41,9 +35,9 @@ void CapaLogica :: asignarMascota (long int ci, mascota * masc, tipoError &error
 
 void CapaLogica :: listarDuenios (iterador &iter)
 {
-    Duenios->listarDuenio(iter);
+    Duenios.listarDuenio(iter);
 }
 int CapaLogica :: contarPeso(float peso)
 {
-    return Mascotas->contarPeso(peso);
+    return Mascotas.contarPeso(peso);
 }
